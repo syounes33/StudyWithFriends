@@ -18,6 +18,10 @@
 		2A7EE72B171F9F160068A226 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A7EE72A171F9F160068A226 /* Default-568h@2x.png */; };
 		2A7EE72E171F9F160068A226 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A7EE72C171F9F160068A226 /* MainStoryboard.storyboard */; };
 		2A7EE731171F9F160068A226 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7EE730171F9F160068A226 /* GameViewController.m */; };
+		2A7EE7391720E7B80068A226 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7EE7381720E7B80068A226 /* Game.m */; };
+		2A7EE73E172482AE0068A226 /* pauseButton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A7EE73C172482AE0068A226 /* pauseButton.jpg */; };
+		2A7EE73F172482AE0068A226 /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A7EE73D172482AE0068A226 /* playButton.png */; };
+		2A7EE74217248EB40068A226 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7EE74117248EB40068A226 /* ResultsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,12 @@
 		2A7EE72D171F9F160068A226 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		2A7EE72F171F9F160068A226 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		2A7EE730171F9F160068A226 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		2A7EE7371720E7B80068A226 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		2A7EE7381720E7B80068A226 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		2A7EE73C172482AE0068A226 /* pauseButton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pauseButton.jpg; sourceTree = "<group>"; };
+		2A7EE73D172482AE0068A226 /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playButton.png; sourceTree = "<group>"; };
+		2A7EE74017248EB40068A226 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		2A7EE74117248EB40068A226 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +96,10 @@
 				2A7EE723171F9F160068A226 /* GameAppDelegate.h */,
 				2A7EE724171F9F160068A226 /* GameAppDelegate.m */,
 				2A7EE72C171F9F160068A226 /* MainStoryboard.storyboard */,
+				2A7EE74017248EB40068A226 /* ResultsViewController.h */,
+				2A7EE74117248EB40068A226 /* ResultsViewController.m */,
+				2A7EE7371720E7B80068A226 /* Game.h */,
+				2A7EE7381720E7B80068A226 /* Game.m */,
 				2A7EE72F171F9F160068A226 /* GameViewController.h */,
 				2A7EE730171F9F160068A226 /* GameViewController.m */,
 				2A7EE71B171F9F160068A226 /* Supporting Files */,
@@ -100,6 +114,8 @@
 				2A7EE71D171F9F160068A226 /* InfoPlist.strings */,
 				2A7EE720171F9F160068A226 /* main.m */,
 				2A7EE722171F9F160068A226 /* StudyWithFriends-Prefix.pch */,
+				2A7EE73C172482AE0068A226 /* pauseButton.jpg */,
+				2A7EE73D172482AE0068A226 /* playButton.png */,
 				2A7EE726171F9F160068A226 /* Default.png */,
 				2A7EE728171F9F160068A226 /* Default@2x.png */,
 				2A7EE72A171F9F160068A226 /* Default-568h@2x.png */,
@@ -164,6 +180,8 @@
 				2A7EE729171F9F160068A226 /* Default@2x.png in Resources */,
 				2A7EE72B171F9F160068A226 /* Default-568h@2x.png in Resources */,
 				2A7EE72E171F9F160068A226 /* MainStoryboard.storyboard in Resources */,
+				2A7EE73E172482AE0068A226 /* pauseButton.jpg in Resources */,
+				2A7EE73F172482AE0068A226 /* playButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +195,8 @@
 				2A7EE721171F9F160068A226 /* main.m in Sources */,
 				2A7EE725171F9F160068A226 /* GameAppDelegate.m in Sources */,
 				2A7EE731171F9F160068A226 /* GameViewController.m in Sources */,
+				2A7EE7391720E7B80068A226 /* Game.m in Sources */,
+				2A7EE74217248EB40068A226 /* ResultsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +319,7 @@
 				2A7EE736171F9F160068A226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
